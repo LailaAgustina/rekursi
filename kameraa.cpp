@@ -49,3 +49,19 @@ int main(){
 	cout <<"===================================\n\n";
 	
 	}
+void kamera::jeniskamera(string kamera){
+	cout <<"\n"<<"merk "<<kamera<<endl;
+}
+void kamera::tipekamera(string tipe){
+	cout <<"\n"<<"tipe "<<tipe<<endl;
+
+}
+	
+void kamera::ukurankamera(string ukuran){
+	cout <<"\n"<<"ukuran "<<ukuran<<endl;
+
+}
+void kamera::hargakamera(int harga){
+	cout <<"\n"<<"harga "<<harga<<endl;
+
+}
