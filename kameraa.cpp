@@ -12,3 +12,40 @@ class kamera {
     
                 
         };
+int main(){
+    kamera pocket,slr,dslr,instax; 
+
+	pocket.merkkamera	="Merk Sony ";
+	slr.merkkamera		="Merk Canon ";
+	dslr.merkkamera	    ="Merk Nikon ";
+	instax.merkkamera	="Merk Pentax ";
+	
+	cout << "Kamera Pocket: \n\n";
+	cout << (pocket.merkkamera);
+	pocket.tipekamera("Ixus 160 ");
+	pocket.ukurankamera("20 megapixels ");
+	pocket.hargakamera(3000000);
+	cout <<"===================================\n\n";
+	
+	cout << "Kamera SLR: \n\n";
+	cout << (slr.merkkamera);
+	slr.tipekamera("SX710 ");
+	slr.ukurankamera("30 megapixels ");
+	slr.hargakamera(60000000);
+	cout <<"===================================\n\n";
+	
+	cout << "Kamera DSLR: \n\n";
+	cout << (dslr.merkkamera);
+	dslr.tipekamera("G7X ");
+	dslr.ukurankamera("24 megapixels ");
+	dslr.hargakamera(4000000);
+	cout <<"===================================\n\n";
+	
+	cout << "Kamera Instax: \n\n";
+	cout << (instax.merkkamera);
+	instax.tipekamera("K 50 ");
+	instax.ukurankamera("16 megapixels ");
+	instax.hargakamera(2000000);
+	cout <<"===================================\n\n";
+	
+	}
